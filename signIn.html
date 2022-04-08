@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPEN</title>
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="static/css/reset.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="nav">
+          <div class="navbar flex-end align-center">
+            <div class="navbar__brand">
+              <img alt="logo" src="static/img/Logo.svg" />
+            </div>
+            <ul class="navbar__links hide">
+              <li><a href="#">Documentation</a></li>
+            </ul>
+            <div class="navbar__login hide">
+              <a href="SignUp.html"
+                ><button class="btn blue-bg white">Sign up</button></a
+              >
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="shape shape_top">
+        <img src="static/img/Shape.svg" alt="shape" />
+      </div>
+      <main>
+        <section id="Sign" class="Sign">
+          <h1 class="Sign__title">
+            Welcome. We exist to make entrepreneurism easier.
+          </h1>
+          <div class="Sign__container">
+            <button class="btn Google red-bg">
+              <div class="btn__leftside">
+                <img src="static/img/Google.svg" alt="google">
+              </div>
+              <div class="btn__rightside">
+                Sign up with Google
+              </div>
+            </button>
+            <div class="Sign__row">
+              <div class="dashed-line"></div>
+              <p class="Sign__or-reg">Or, register with your email</p>
+              <div class="dashed-line"></div>
+            </div>
+            <form action="" class="form form__sign">
+              <div class="form__item">
+                <label class="form__lbl form__lbl_sign" for="">Full name <span class="red">*</span></label>
+                <input class="form__inp form__inp_sign" type="text" placeholder="First and last name">
+              </div>
+              <div class="form__item">
+                <label class="form__lbl form__lbl_sign" for="">Password <span class="red">*</span></label>
+                <input class="form__inp form__inp_sign" type="text" placeholder="Password (at least 10 characters)">
+              </div>
+              <div class="form__item form__item_checkbox">
+                <input id="keep" class="form__inp form__inp_sign" value="keep" type="checkbox">
+                <label class="form__lbl form__lbl_checkbox" for="keep">Keep me signed in</label>
+                <a class="form__forgot-pas" href="#">Forgot Password?</a>
+              </div>
+              <a href="#"><button class="btn blue-bg w100">Sign up</button></a>
+              <div class="form__sign-in">Already using Open PRO? <a class="form__sign-in-link" href="SignIn.html">Sign in</a></div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
